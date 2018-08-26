@@ -1,0 +1,11 @@
+import math 
+
+# Mean Daily Temperature
+def t_mean(t_max: float, t_min: float) -> float:
+
+    """
+    :param t_max: Maximum Daily Air Temperature - Degrees Celsius
+    :param t_min: Minimum Daily Air Temperature - Degrees Celsius
+    :return: Mean Daily Air Temperature - Degrees Celsius
+    """
+    return (t_max+t_min)/2
